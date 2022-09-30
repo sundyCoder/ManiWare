@@ -1,0 +1,18 @@
+##############################################################################
+#
+# Requirements for sphinx documentation environment. Most dependencies
+# are mocked.
+#
+# This file is discovered by the root level
+# .readthedocs.yaml (rtd build) and docenv.bash (local build)
+##############################################################################
+
+pybullet==3.2.1
+numpy==1.21.6
+attrdict==2.0.1
+attrs==20.2.0
+matplotlib==3.3.4
+sphinxcontrib.contentui
+sphinxcontrib-youtube
+
+

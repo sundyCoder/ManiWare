@@ -1,0 +1,6 @@
+numpy==1.21.6
+disropt==0.1.9
+pybullet==3.2.1
+attrdict==2.0.1
+attrs==20.2.0
+matplotlib==3.3.4

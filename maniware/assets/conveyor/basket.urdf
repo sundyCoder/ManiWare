@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<robot name="waffle" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <material name="black">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="dark">
+    <color rgba="0.3 0.3 0.3 1.0"/>
+  </material>
+  <material name="light_black">
+    <color rgba="0.4 0.4 0.4 1.0"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0.0 0.0 0.8 1.0"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1.0"/>
+  </material>
+
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+
+  <material name="orange">
+    <color rgba="${255/255} ${108/255} ${10/255} 1.0"/>
+  </material>
+
+  <material name="brown">
+    <color rgba="${222/255} ${207/255} ${195/255} 1.0"/>
+  </material>
+
+  <material name="red">
+    <color rgba="0.8 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.0" rpy="1.57 0 1.57"/>
+      <geometry>
+        <mesh filename="./meshes/basket.STL" scale="0.00035 0.00035 0.00035"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.03 0.001"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <origin xyz="0.0 0 0.0" rpy="0 0 0"/>
+      <mass value="14.6329594e+00"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+               iyy="1.0" iyz="0.0"
+               izz="1.0" />
+    </inertial>
+  </link>
+
+
+
+</robot>
