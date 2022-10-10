@@ -33,7 +33,7 @@ We propose the architecture and its underlying functional components, and the di
 ## 3. Requirements and Installation
 **ManiWare** requires Python3 and Pybullet to be installed on your system.
 
-Please refer to the [installation page](https://sundycoder.github.io/ManiWare/installation) for a more detailed installation guide.
+Please refer to the [installation page](https://maniware.readthedocs.io/en/latest/installation/) for a more detailed installation guide.
 
 To install the middleware, download the source code from
 ```
