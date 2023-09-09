@@ -76,13 +76,12 @@ If you use this middleware or benchmark in your research, please cite the paper 
 will be submitted to a Journal.
 
 ```
-@inproceedings{cheng2022maniware,
+@article{chen2023maniware,
   title={ManiWare: An Easy-to-Use Middleware for Cooperative Manipulator Teams},
-  author={Cheng, Zhiqin and Cao, Jiannong and Chen, Jinlin},
-  booktitle={2022 IEEE International Conference on Smart Computing (SMARTCOMP)},
-  pages={349--355},
-  year={2022},
-  organization={IEEE}
+  author={Chen, Jinlin and Cao, Jiannong and Cheng, Zhiqin and Sahni, Yuvraj},
+  journal={IEEE Internet of Things Journal},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
